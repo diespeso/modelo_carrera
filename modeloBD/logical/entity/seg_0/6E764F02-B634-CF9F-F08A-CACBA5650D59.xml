@@ -15,6 +15,7 @@
 <Attribute name="IDESTUDIANTE" id="B3E1885E-D8F6-4357-52CE-CE010ABE9CAA">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:19:32 UTC</createdTime>
+<comment>La matrícula del estudiante</comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,6 +26,7 @@
 <Attribute name="NOMBRE" id="3287EDED-F2D8-2D65-8792-7B6B3066A954">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:19:57 UTC</createdTime>
+<comment>Los nombres del estudiante</comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,6 +38,7 @@
 <Attribute name="GRADO" id="32279970-5D96-BD07-D643-7732C8A61F66">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:54:46 UTC</createdTime>
+<comment>El semestre del estudiante.</comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,14 +47,26 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="APELLIDO" id="972DFC9E-0B2F-94FB-1A04-864626A3F4AC">
+<Attribute name="APELLIDO_PATERNO" id="972DFC9E-0B2F-94FB-1A04-864626A3F4AC">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:55:05 UTC</createdTime>
+<comment>El apellido paterno del estudiante</comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_MATERNO" id="A53DD65D-7846-2B42-15D1-C9FD90EACF8A">
+<createdBy>ITT</createdBy>
+<createdTime>2019-10-17 08:31:47 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>

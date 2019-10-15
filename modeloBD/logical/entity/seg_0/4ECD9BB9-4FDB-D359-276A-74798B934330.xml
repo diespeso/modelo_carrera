@@ -15,6 +15,7 @@
 <Attribute name="IDCATEGORIA" id="8FB169EB-5E0C-A6A5-B01D-7D28F03F8AE5">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:12:12 UTC</createdTime>
+<comment>Identificador de categoria</comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,6 +26,7 @@
 <Attribute name="TIPO" id="A1D88AA8-3671-8F92-03DF-BA1D2BCA85D8">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:12:39 UTC</createdTime>
+<comment>La categoria de edad: de 15 a 18, etc. (Al momento no se tiene el documento de las categorias)</comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
