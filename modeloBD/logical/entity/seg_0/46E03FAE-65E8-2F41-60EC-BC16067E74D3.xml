@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46E03FAE-65E8-2F41-60EC-BC16067E74D3" name="RUTA">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:13:23 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDRUTA" id="87E22A14-2E25-EBAF-3152-E20321A4B315">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:13:28 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="7826258B-2A5E-66F1-DFC0-7B78A3819457">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:13:40 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDCARRERA" id="74935860-5C3A-CBC6-0CB9-CDFDE8D6A059">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:44:59 UTC</createdTime>
+<generatorID>14B00971-F639-7648-265C-A36ED2F8DD54</generatorID>
+<ownerDesignName>modeloBD</ownerDesignName>
+<referedAttribute>3FCABCD3-6E7E-9163-AE46-444AE046A916</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5CB8D43-777D-7B73-F661-5CFD1FF21E9D" name="RUTA PK">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:14:00 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87E22A14-2E25-EBAF-3152-E20321A4B315</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

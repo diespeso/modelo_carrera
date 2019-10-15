@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4ECD9BB9-4FDB-D359-276A-74798B934330" name="CATEGORIA">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:11:59 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDCATEGORIA" id="8FB169EB-5E0C-A6A5-B01D-7D28F03F8AE5">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:12:12 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="A1D88AA8-3671-8F92-03DF-BA1D2BCA85D8">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:12:39 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB33D9A9-DAAB-CEC0-F626-94E5ED795ECE" name="CATEGORIA PK">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:14:08 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FB169EB-5E0C-A6A5-B01D-7D28F03F8AE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

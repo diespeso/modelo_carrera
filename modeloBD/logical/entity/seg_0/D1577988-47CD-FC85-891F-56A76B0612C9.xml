@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1577988-47CD-FC85-891F-56A76B0612C9" name="PATROCINADOR">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 17:57:39 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPATROCINADOR" id="B8983972-F7BD-23A7-258E-9AFA04EFF075">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 17:57:54 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="2F77DB12-FD9A-2516-69B3-6204311462D3">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 17:58:18 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMPAÑIA" id="ACB7D4C9-682E-DA28-8E53-0C93B8091012">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 17:58:33 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDEVENTO" id="E6CC5DC9-B7B0-1BC4-FEDD-0B274AE0C546">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:56:53 UTC</createdTime>
+<generatorID>7EB42453-B93F-928C-A098-93BE5F22D4A6</generatorID>
+<ownerDesignName>modeloBD</ownerDesignName>
+<referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4FF6C75-1687-4B33-67F6-A57A2EA04ADE" name="PATROCINADOR PK">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:07:08 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8983972-F7BD-23A7-258E-9AFA04EFF075</attributeRef>
+<attributeRef>E6CC5DC9-B7B0-1BC4-FEDD-0B274AE0C546</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E764F02-B634-CF9F-F08A-CACBA5650D59" name="ESTUDIANTE">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:17:31 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDESTUDIANTE" id="B3E1885E-D8F6-4357-52CE-CE010ABE9CAA">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:19:32 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="3287EDED-F2D8-2D65-8792-7B6B3066A954">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:19:57 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GRADO" id="32279970-5D96-BD07-D643-7732C8A61F66">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:54:46 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="972DFC9E-0B2F-94FB-1A04-864626A3F4AC">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:55:05 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E41F8309-D75A-51C4-D44A-1C435EC40DE6" name="ESTUDIANTE PK">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:19:56 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3E1885E-D8F6-4357-52CE-CE010ABE9CAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

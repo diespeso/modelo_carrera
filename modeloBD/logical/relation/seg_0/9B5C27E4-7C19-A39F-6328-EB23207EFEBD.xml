@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Evento-Tecnologico" directorySegmentName="seg_0" id="9B5C27E4-7C19-A39F-6328-EB23207EFEBD">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:46:32 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<sourcePk>FF198127-9346-D87F-CF2C-4309FAFB6339</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1A2FEDF1-26DD-C4EB-7C4F-BEBBB40C6CF5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>77451733-6C13-944D-179F-211218B20C1A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

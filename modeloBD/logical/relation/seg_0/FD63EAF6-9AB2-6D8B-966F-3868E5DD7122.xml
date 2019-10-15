@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Evento-Staff" directorySegmentName="seg_0" id="FD63EAF6-9AB2-6D8B-966F-3868E5DD7122">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:56:25 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<sourcePk>8D744F9D-128E-3B39-4664-E3109D5ECA50</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77451733-6C13-944D-179F-211218B20C1A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9E1C0D34-ED7E-B720-44C8-5822CA177DEA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Participante-Alergia" directorySegmentName="seg_0" id="4B8F77E9-4C18-E3BC-72A6-65B2B9A3D876">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:53:53 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<sourcePk>89336062-2919-0922-B923-EC17F6D67E0A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3CC325A2-EF94-CD4F-1079-68F4D0678368</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>54406CD2-67D7-247E-DD9D-E323A9D91012</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Evento-Seguridad" directorySegmentName="seg_0" id="C2EE83D7-1803-8E44-59DF-041073B20597">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:49:12 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<sourcePk>8D744F9D-128E-3B39-4664-E3109D5ECA50</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77451733-6C13-944D-179F-211218B20C1A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6ECCDB9B-F305-09F5-91CD-956022FD8DB3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

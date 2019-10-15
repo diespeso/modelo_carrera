@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="523F4DD6-6C1E-ECAB-4303-18F353A83DE4" name="Ganadores">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:57:33 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDGANADOR" id="5B02E8C6-0B7B-0042-A410-DD565AB572CD">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:57:40 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPARTICIPANTE" id="C45FFC84-62D3-F891-9B03-CB8E771BB616">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:57:56 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPREMIO" id="B4A18FF3-35A4-51E5-0B41-B97409F90EC9">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:58:10 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="255DE78F-3A75-D09F-4CF3-A219C2565E2B" name="Ganadores PK">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:58:23 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B02E8C6-0B7B-0042-A410-DD565AB572CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

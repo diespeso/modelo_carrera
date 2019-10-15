@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EFE78613-6292-A23F-C1BF-17A923B04B66" name="REGISTRO">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 17:53:40 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDREGISTRO" id="C87C14B8-E9D6-0A31-80C7-D1E5E678EE26">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 17:56:44 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPARTICIPANTE" id="C52D5D6A-A15E-EB7F-5EBE-01D04E68D752">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 17:57:11 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDEVENTO" id="2C5F1351-0787-4A3C-CE45-8E2E19BB0C67">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:51:36 UTC</createdTime>
+<generatorID>181BAE70-E7F8-3B9C-40E8-67478B11D4CD</generatorID>
+<ownerDesignName>modeloBD</ownerDesignName>
+<referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB8D8978-25AE-3699-279A-504B4FB79422" name="REGISTRO PK">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:07:03 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C87C14B8-E9D6-0A31-80C7-D1E5E678EE26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

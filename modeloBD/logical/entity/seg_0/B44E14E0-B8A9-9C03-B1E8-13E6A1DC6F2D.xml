@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B44E14E0-B8A9-9C03-B1E8-13E6A1DC6F2D" name="CARRERA">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:08:06 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDCARRERA" id="3FCABCD3-6E7E-9163-AE46-444AE046A916">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:08:16 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AÑO" id="7C2B101A-0F14-BC3C-7097-D23F94CA7143">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:08:31 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDRUTA" id="EADDB1A7-7014-8071-BDA8-87D9BAC498DA">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:08:49 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDEVENTO" id="C1E19233-654A-BE7C-06C8-360C5199E08E">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:46:04 UTC</createdTime>
+<generatorID>99AA5179-AC00-5BBC-8E93-84F271E5EAA4</generatorID>
+<ownerDesignName>modeloBD</ownerDesignName>
+<referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A880F488-CFC7-891F-564B-9BA56F9663B5" name="CARRERA PK">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-09-27 18:09:02 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FCABCD3-6E7E-9163-AE46-444AE046A916</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
