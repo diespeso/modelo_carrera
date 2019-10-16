@@ -15,6 +15,7 @@
 <Attribute name="IDPATROCINADOR" id="B8983972-F7BD-23A7-258E-9AFA04EFF075">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 17:57:54 UTC</createdTime>
+<comment><![CDATA[Identificador del patrocinador]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,6 +26,7 @@
 <Attribute name="NOMBRE" id="2F77DB12-FD9A-2516-69B3-6204311462D3">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 17:58:18 UTC</createdTime>
+<comment><![CDATA[Nombre del patrocinador]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,6 +38,7 @@
 <Attribute name="COMPAÑIA" id="ACB7D4C9-682E-DA28-8E53-0C93B8091012">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 17:58:33 UTC</createdTime>
+<comment><![CDATA[Compañía del patrocinio]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,6 +49,7 @@
 <Attribute name="IDEVENTO" id="E6CC5DC9-B7B0-1BC4-FEDD-0B274AE0C546">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:56:53 UTC</createdTime>
+<comment><![CDATA[Identificador del evento donde se patrocinó]]></comment>
 <generatorID>7EB42453-B93F-928C-A098-93BE5F22D4A6</generatorID>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
@@ -53,7 +57,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

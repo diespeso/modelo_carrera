@@ -15,6 +15,7 @@
 <Attribute name="IDINSUMO" id="1A99948B-52E1-11A3-DDAC-2EB51B732D68">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:06:28 UTC</createdTime>
+<comment><![CDATA[Identificador del insumo]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,6 +26,7 @@
 <Attribute name="TIPO" id="9E3C3847-5302-9DE6-1168-1C5FBF9CAE65">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:06:42 UTC</createdTime>
+<comment><![CDATA[Tipo de insumo: mobiliario, fruta, bebidas, etc.]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,6 +38,7 @@
 <Attribute name="NOMBRE" id="6303040B-6736-65EA-30C1-D008B6CAEF3B">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:07:35 UTC</createdTime>
+<comment><![CDATA[Nombre del insumo, especifico]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,6 +50,7 @@
 <Attribute name="CANTIDAD" id="B320C991-087D-8F0D-F671-20524857C089">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:07:53 UTC</createdTime>
+<comment><![CDATA[El número de unidades de este insumo.]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,6 +61,7 @@
 <Attribute name="IDEVENTO" id="0A945DA2-9F6A-51D5-6305-D13B7C070DDF">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 20:07:51 UTC</createdTime>
+<comment><![CDATA[Identificador del evento donde se usó este insumo]]></comment>
 <generatorID>92714B20-D8EA-FDFA-26D9-5F5F81FD3677</generatorID>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
@@ -64,7 +69,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

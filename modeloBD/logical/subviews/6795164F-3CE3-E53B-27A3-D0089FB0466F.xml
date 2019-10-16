@@ -103,8 +103,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="892" y="260"/>
-<point x="810" y="260"/>
+<point x="892" y="245"/>
+<point x="810" y="245"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2AF4D008-EBEE-E294-3517-081867E93C5C" otype="Relation" vid_source="A3EF73D1-84C7-A32E-B114-1A93AF3B2A7E" vid_target="2326EC32-590C-C4A2-25A1-FD0178BCAF5E">

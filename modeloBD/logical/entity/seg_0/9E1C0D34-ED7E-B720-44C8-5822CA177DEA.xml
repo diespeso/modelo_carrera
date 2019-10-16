@@ -15,6 +15,7 @@
 <Attribute name="IDSTAFF" id="17B79C51-46C5-4A76-954C-D1CE15A1C2B7">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:02:58 UTC</createdTime>
+<comment><![CDATA[Identificador de un miembro del staff]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,6 +26,7 @@
 <Attribute name="NOMBRE" id="9EC9E81B-32D8-29DA-CDE7-9E7053DC07AB">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:03:15 UTC</createdTime>
+<comment><![CDATA[Nombre del miembro del staff]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,6 +38,7 @@
 <Attribute name="GRADO" id="FFD75CB1-6061-B72E-81B4-5AD412208B83">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:05:42 UTC</createdTime>
+<comment><![CDATA[Semestre del miembro del staff.]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,6 +50,7 @@
 <Attribute name="IDEVENTO" id="9ADDC3A7-1C27-7273-ECE5-FAE22DFF9333">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:56:25 UTC</createdTime>
+<comment><![CDATA[Identificador del evento en el que participó el miembro del staff]]></comment>
 <generatorID>FD63EAF6-9AB2-6D8B-966F-3868E5DD7122</generatorID>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
@@ -54,7 +58,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

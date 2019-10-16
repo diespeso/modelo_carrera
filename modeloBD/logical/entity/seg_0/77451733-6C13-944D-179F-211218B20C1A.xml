@@ -15,6 +15,7 @@
 <Attribute name="IDEVENTO" id="C205C156-2815-4ED3-BA2C-073F43AAA1A1">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:21:22 UTC</createdTime>
+<comment><![CDATA[Identificador de evento de la carrera]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,6 +26,7 @@
 <Attribute name="NOMBRE" id="40190D88-40D1-053B-9C51-EF003F65ECC1">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:21:33 UTC</createdTime>
+<comment><![CDATA[Nombre de la carrera]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,6 +38,7 @@
 <Attribute name="FECHA" id="6F91F351-7331-4A13-46B3-4ED385C21FA3">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-02 20:42:17 UTC</createdTime>
+<comment><![CDATA[Fecha de realización de la carrera]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,6 +49,7 @@
 <Attribute name="IDTECNOLOGICO" id="F9FF1577-C2F1-58BC-9DAE-7088CAA42BC8">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:46:32 UTC</createdTime>
+<comment><![CDATA[Identificador del tecnológico que organiza la carrera]]></comment>
 <generatorID>9B5C27E4-7C19-A39F-6328-EB23207EFEBD</generatorID>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>2009F6C5-CE86-45DF-3CFF-420D8098D087</referedAttribute>

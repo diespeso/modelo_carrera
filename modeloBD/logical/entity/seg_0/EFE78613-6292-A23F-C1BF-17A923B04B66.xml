@@ -15,6 +15,7 @@
 <Attribute name="IDREGISTRO" id="C87C14B8-E9D6-0A31-80C7-D1E5E678EE26">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 17:56:44 UTC</createdTime>
+<comment><![CDATA[Identificador de este registro]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,6 +26,7 @@
 <Attribute name="IDPARTICIPANTE" id="C52D5D6A-A15E-EB7F-5EBE-01D04E68D752">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 17:57:11 UTC</createdTime>
+<comment><![CDATA[El identificador del participante que se registra]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -39,6 +41,18 @@
 <generatorID>181BAE70-E7F8-3B9C-40E8-67478B11D4CD</generatorID>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDEVENTO_" id="8245954D-4756-6E0B-4C36-4E997C266AB6">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-16 05:07:07 UTC</createdTime>
+<comment><![CDATA[El identificador del evento al que pertenece el registro]]></comment>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

@@ -15,6 +15,7 @@
 <Attribute name="IDCARRERA" id="3FCABCD3-6E7E-9163-AE46-444AE046A916">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:08:16 UTC</createdTime>
+<comment><![CDATA[Identificador de la carrera]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,6 +26,7 @@
 <Attribute name="AÑO" id="7C2B101A-0F14-BC3C-7097-D23F94CA7143">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:08:31 UTC</createdTime>
+<comment><![CDATA[El año en el que ocurre la carrera]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,6 +38,7 @@
 <Attribute name="IDRUTA" id="EADDB1A7-7014-8071-BDA8-87D9BAC498DA">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:08:49 UTC</createdTime>
+<comment><![CDATA[La ruta que cubre la carrera]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,6 +50,7 @@
 <Attribute name="IDEVENTO" id="C1E19233-654A-BE7C-06C8-360C5199E08E">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:46:04 UTC</createdTime>
+<comment><![CDATA[El evento en el que ocurre la carrera]]></comment>
 <generatorID>99AA5179-AC00-5BBC-8E93-84F271E5EAA4</generatorID>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
@@ -54,7 +58,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

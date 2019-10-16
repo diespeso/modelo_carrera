@@ -15,6 +15,7 @@
 <Attribute name="IDRAMA" id="AA9EBAF5-425E-011C-7549-F792F9752164">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:16:07 UTC</createdTime>
+<comment><![CDATA[identificador de rama, en este caso habría dos]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,6 +26,7 @@
 <Attribute name="NOMBRE" id="3773180B-F1E3-BACB-0070-DCBD10251284">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:16:35 UTC</createdTime>
+<comment><![CDATA[el nombre de la rama, ya sea rama femenil o rama varonil]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

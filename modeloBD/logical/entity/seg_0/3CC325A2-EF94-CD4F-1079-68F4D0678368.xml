@@ -15,7 +15,7 @@
 <Attribute name="IDPARTICIPANTE" id="FD921446-7FA2-04A4-FA15-D3D26563B6F5">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:01:42 UTC</createdTime>
-<comment>El número identificador del participante (el que tendrá en su ficha)</comment>
+<comment><![CDATA[El número identificador del participante (el que tendrá en su ficha)]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -26,7 +26,7 @@
 <Attribute name="NOMBRE" id="82A693E5-F3A6-5B5E-3627-FC54C8B7122E">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:02:00 UTC</createdTime>
-<comment>Los nombres del participante</comment>
+<comment><![CDATA[Los nombres del participante]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -37,7 +37,7 @@
 <Attribute name="FECHA DE NACIMIENTO" id="CE2CBC9C-DFF4-D5C5-6665-3487DE31DD5D">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:02:10 UTC</createdTime>
-<comment>La fecha de nacimiento del participante.</comment>
+<comment><![CDATA[La fecha de nacimiento del participante.]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,7 +48,7 @@
 <Attribute name="IDCATEGORIA" id="BAF72676-23AA-D7F2-E772-D34A3BF03125">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:02:24 UTC</createdTime>
-<comment>El número identificador de la categoria  la cual pertenece el participante.</comment>
+<comment><![CDATA[El número identificador de la categoria  la cual pertenece el participante.]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +60,7 @@
 <Attribute name="IDESTUDIANTE" id="572BAFC5-02FD-B64A-A4EC-EE75DA35FE8C">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:12:55 UTC</createdTime>
-<comment>El número identificador si</comment>
+<comment><![CDATA[El número identificador si se trata de un estudiante]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -72,7 +72,7 @@
 <Attribute name="IDALERGIA" id="DB4CBCD6-8B27-3FF6-6DAB-476E46AB0C62">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:15:39 UTC</createdTime>
-<comment>El número identificador de la alergia que puede tener el participante, es opcional.</comment>
+<comment><![CDATA[El número identificador de la alergia que puede tener el participante, es opcional.]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -83,7 +83,7 @@
 <Attribute name="IDRAMA" id="161B168C-D317-174C-FF1B-DCFF96649049">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:17:00 UTC</createdTime>
-<comment>El número identificador de la rama (femenil o varonil)</comment>
+<comment><![CDATA[El número identificador de la rama (femenil o varonil)]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,7 +95,7 @@
 <Attribute name="IDREGISTRO_" id="7F93CAEA-DBB0-B3E6-3A3C-E0680C8848D1">
 <createdBy>ITT</createdBy>
 <createdTime>2019-10-17 08:46:16 UTC</createdTime>
-<comment>Número identificador del registro de este participante</comment>
+<comment><![CDATA[Número identificador del registro de este participante]]></comment>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -126,7 +126,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IDGANADOR" id="AD3E078A-2822-F943-D3EC-00F3022DB089">
 <createdBy>Carlos Fernando</createdBy>
@@ -138,7 +138,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IDCATEGORIA1" id="DC47EB89-6C22-93BF-C732-34868814B21F">
 <createdBy>Carlos Fernando</createdBy>
@@ -150,7 +150,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IDRAMA1" id="B1FAF282-4BF9-CAAF-143C-1E11877EB433">
 <createdBy>Carlos Fernando</createdBy>
@@ -162,7 +162,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
