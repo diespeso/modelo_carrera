@@ -16,6 +16,7 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:16:07 UTC</createdTime>
 <comment><![CDATA[identificador de rama, en este caso habría dos]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,19 +28,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:16:35 UTC</createdTime>
 <comment><![CDATA[el nombre de la rama, ya sea rama femenil o rama varonil]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TIPO" id="89CE7B12-7F97-2F19-EEBE-72E0C844DD73">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-09-27 18:16:46 UTC</createdTime>
-<ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

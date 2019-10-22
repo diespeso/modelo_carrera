@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PARTICIPANTE - ESTUDIANTE" directorySegmentName="seg_0" id="EC7F4851-B459-5C9A-A0F1-69764726F85D">
+<createdBy>radge</createdBy>
+<createdTime>2019-10-22 05:04:39 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3CC325A2-EF94-CD4F-1079-68F4D0678368</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6E764F02-B634-CF9F-F08A-CACBA5650D59</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

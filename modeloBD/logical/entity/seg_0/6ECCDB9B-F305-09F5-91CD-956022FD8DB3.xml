@@ -16,6 +16,7 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 17:59:08 UTC</createdTime>
 <comment><![CDATA[Identificador del elemento de seguridad]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,8 +28,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 17:59:58 UTC</createdTime>
 <comment><![CDATA[Departamento que provee al elemento de seguridad.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -39,30 +40,20 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 17:59:48 UTC</createdTime>
 <comment><![CDATA[Nombre del empleado de seguridad]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDEVENTO_" id="3615156A-3777-2535-4BBB-A2EFE7CF9F47">
-<createdBy>edgar</createdBy>
-<createdTime>2019-10-16 05:15:20 UTC</createdTime>
-<comment><![CDATA[Identificador del evento donde participó este elemento de seguridad]]></comment>
-<ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="IDEVENTO" id="97141D59-38D0-75E2-CF57-7EFB822D5C66">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:49:12 UTC</createdTime>
+<comment><![CDATA[Identificador del evento donde participó este elemento de seguridad]]></comment>
 <generatorID>C2EE83D7-1803-8E44-59DF-041073B20597</generatorID>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

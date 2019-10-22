@@ -16,6 +16,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:08:16 UTC</createdTime>
 <comment><![CDATA[Identificador de la carrera]]></comment>
+<commentInRDBMS><![CDATA[UNIQUE, NOT NULL]]></commentInRDBMS>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,33 +29,38 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:08:31 UTC</createdTime>
 <comment><![CDATA[El año en el que ocurre la carrera]]></comment>
+<commentInRDBMS><![CDATA[NOT NULL]]></commentInRDBMS>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IDRUTA" id="EADDB1A7-7014-8071-BDA8-87D9BAC498DA">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-09-27 18:08:49 UTC</createdTime>
-<comment><![CDATA[La ruta que cubre la carrera]]></comment>
-<ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IDEVENTO" id="C1E19233-654A-BE7C-06C8-360C5199E08E">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:46:04 UTC</createdTime>
 <comment><![CDATA[El evento en el que ocurre la carrera]]></comment>
+<commentInRDBMS><![CDATA[UNIQUE, NOT NULL]]></commentInRDBMS>
 <generatorID>99AA5179-AC00-5BBC-8E93-84F271E5EAA4</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDRUTA1" id="593A7274-5FEC-FD56-2C14-8489E3B6CAB7">
+<createdBy>radge</createdBy>
+<createdTime>2019-10-22 03:57:24 UTC</createdTime>
+<comment><![CDATA[La ruta que cubre la carrera]]></comment>
+<generatorID>14B00971-F639-7648-265C-A36ED2F8DD54</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<referedAttribute>87E22A14-2E25-EBAF-3152-E20321A4B315</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

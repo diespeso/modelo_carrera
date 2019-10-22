@@ -16,6 +16,7 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:02:58 UTC</createdTime>
 <comment><![CDATA[Identificador de un miembro del staff]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,20 +28,42 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:03:15 UTC</createdTime>
 <comment><![CDATA[Nombre del miembro del staff]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="APELLIDO_PATERNO" id="4FDD7224-7CF2-5017-803D-C478D4541828">
+<createdBy>radge</createdBy>
+<createdTime>2019-10-22 03:45:14 UTC</createdTime>
+<notes><![CDATA[NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_MATERNO" id="705ACD15-6C4A-210B-5A8B-26F7C684FC29">
+<createdBy>radge</createdBy>
+<createdTime>2019-10-22 03:45:28 UTC</createdTime>
+<notes><![CDATA[NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="GRADO" id="FFD75CB1-6061-B72E-81B4-5AD412208B83">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:05:42 UTC</createdTime>
 <comment><![CDATA[Semestre del miembro del staff.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -52,6 +75,7 @@
 <createdTime>2019-10-08 13:56:25 UTC</createdTime>
 <comment><![CDATA[Identificador del evento en el que participó el miembro del staff]]></comment>
 <generatorID>FD63EAF6-9AB2-6D8B-966F-3868E5DD7122</generatorID>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

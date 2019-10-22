@@ -16,6 +16,7 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:21:22 UTC</createdTime>
 <comment><![CDATA[Identificador de evento de la carrera]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,8 +28,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:21:33 UTC</createdTime>
 <comment><![CDATA[Nombre de la carrera]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -39,8 +40,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-02 20:42:17 UTC</createdTime>
 <comment><![CDATA[Fecha de realización de la carrera]]></comment>
+<notes><![CDATA[NOT NULL, AÑOS MENORES A 3000]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -51,6 +52,7 @@
 <createdTime>2019-10-08 13:46:32 UTC</createdTime>
 <comment><![CDATA[Identificador del tecnológico que organiza la carrera]]></comment>
 <generatorID>9B5C27E4-7C19-A39F-6328-EB23207EFEBD</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>2009F6C5-CE86-45DF-3CFF-420D8098D087</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

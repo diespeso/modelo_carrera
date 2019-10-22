@@ -16,8 +16,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:14:42 UTC</createdTime>
 <comment><![CDATA[El identificador de la alergia]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -28,8 +28,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:15:09 UTC</createdTime>
 <comment><![CDATA[Nombre de la alergia]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -40,8 +40,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:15:23 UTC</createdTime>
 <comment><![CDATA[El tipo de alergia, si es alimentos o fármacos, etc.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -53,6 +53,7 @@
 <createdTime>2019-10-08 13:53:53 UTC</createdTime>
 <comment><![CDATA[El participante que presenta la alergia]]></comment>
 <generatorID>4B8F77E9-4C18-E3BC-72A6-65B2B9A3D876</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>FD921446-7FA2-04A4-FA15-D3D26563B6F5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,6 +70,7 @@
 <ownerDesignName>modeloBD</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
+<attributeRef>2BEC075B-6EDB-373F-2171-EC6412C49B4C</attributeRef>
 <attributeRef>609612D7-C6B8-6525-B87E-062D2622BD58</attributeRef>
 </usedAttributes>
 </identifier>

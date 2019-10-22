@@ -5,7 +5,7 @@
 <ownerDesignName>modeloBD</ownerDesignName>
 <sourcePk>FF198127-9346-D87F-CF2C-4309FAFB6339</sourcePk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>1A2FEDF1-26DD-C4EB-7C4F-BEBBB40C6CF5</sourceEntity>

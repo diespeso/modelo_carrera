@@ -16,6 +16,7 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:06:28 UTC</createdTime>
 <comment><![CDATA[Identificador del insumo]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,8 +28,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:06:42 UTC</createdTime>
 <comment><![CDATA[Tipo de insumo: mobiliario, fruta, bebidas, etc.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -39,8 +40,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:07:35 UTC</createdTime>
 <comment><![CDATA[Nombre del insumo, especifico]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -51,8 +52,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:07:53 UTC</createdTime>
 <comment><![CDATA[El número de unidades de este insumo.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -63,6 +64,7 @@
 <createdTime>2019-10-08 20:07:51 UTC</createdTime>
 <comment><![CDATA[Identificador del evento donde se usó este insumo]]></comment>
 <generatorID>92714B20-D8EA-FDFA-26D9-5F5F81FD3677</generatorID>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>C205C156-2815-4ED3-BA2C-073F43AAA1A1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

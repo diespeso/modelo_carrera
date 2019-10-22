@@ -4,8 +4,9 @@
 <createdTime>2019-10-08 13:44:59 UTC</createdTime>
 <ownerDesignName>modeloBD</ownerDesignName>
 <sourcePk>A880F488-CFC7-891F-564B-9BA56F9663B5</sourcePk>
+<targetPk>A5CB8D43-777D-7B73-F661-5CFD1FF21E9D</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>B44E14E0-B8A9-9C03-B1E8-13E6A1DC6F2D</sourceEntity>

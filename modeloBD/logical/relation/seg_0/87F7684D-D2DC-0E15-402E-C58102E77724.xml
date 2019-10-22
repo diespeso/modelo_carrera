@@ -3,9 +3,11 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:58:48 UTC</createdTime>
 <ownerDesignName>modeloBD</ownerDesignName>
+<useSurrogateKey>true</useSurrogateKey>
 <sourcePk>255DE78F-3A75-D09F-4CF3-A219C2565E2B</sourcePk>
+<targetPk>89336062-2919-0922-B923-EC17F6D67E0A</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>523F4DD6-6C1E-ECAB-4303-18F353A83DE4</sourceEntity>

@@ -16,6 +16,7 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:13:28 UTC</createdTime>
 <comment><![CDATA[El número identificador de la ruta]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,8 +28,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:13:40 UTC</createdTime>
 <comment><![CDATA[Una descripción del recorrido de la ruta y su localización.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -40,6 +41,7 @@
 <createdTime>2019-10-08 13:44:59 UTC</createdTime>
 <comment><![CDATA[El número identificador de la carrera a la que pertenece esta ruta]]></comment>
 <generatorID>14B00971-F639-7648-265C-A36ED2F8DD54</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>3FCABCD3-6E7E-9163-AE46-444AE046A916</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

@@ -16,6 +16,7 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:19:32 UTC</createdTime>
 <comment><![CDATA[La matrícula del estudiante]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,8 +28,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:19:57 UTC</createdTime>
 <comment><![CDATA[Los nombres del estudiante]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -39,8 +40,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:54:46 UTC</createdTime>
 <comment><![CDATA[El semestre del estudiante.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -51,8 +52,8 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:55:05 UTC</createdTime>
 <comment><![CDATA[El apellido paterno del estudiante]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -62,8 +63,8 @@
 <Attribute name="APELLIDO_MATERNO" id="A53DD65D-7846-2B42-15D1-C9FD90EACF8A">
 <createdBy>ITT</createdBy>
 <createdTime>2019-10-17 08:31:47 UTC</createdTime>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>

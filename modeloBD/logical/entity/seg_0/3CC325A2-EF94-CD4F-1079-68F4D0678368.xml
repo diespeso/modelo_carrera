@@ -8,7 +8,7 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
+<maxVolumes>3000</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
@@ -16,6 +16,7 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:01:42 UTC</createdTime>
 <comment><![CDATA[El número identificador del participante (el que tendrá en su ficha)]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,40 +28,54 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:02:00 UTC</createdTime>
 <comment><![CDATA[Los nombres del participante]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_PATERNO" id="7355DAE5-753B-FA8D-5652-204B09E8786C">
+<createdBy>radge</createdBy>
+<createdTime>2019-10-22 03:33:54 UTC</createdTime>
+<comment><![CDATA[Apellido paterno del participante.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_MATERNO" id="E9B76DA9-0D95-E98D-3DBB-CE35B75939E1">
+<createdBy>radge</createdBy>
+<createdTime>2019-10-22 03:38:12 UTC</createdTime>
+<comment><![CDATA[Apellido materno del participante]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FECHA DE NACIMIENTO" id="CE2CBC9C-DFF4-D5C5-6665-3487DE31DD5D">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:02:10 UTC</createdTime>
 <comment><![CDATA[La fecha de nacimiento del participante.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDCATEGORIA" id="BAF72676-23AA-D7F2-E772-D34A3BF03125">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-09-27 18:02:24 UTC</createdTime>
-<comment><![CDATA[El número identificador de la categoria  la cual pertenece el participante.]]></comment>
-<ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="IDESTUDIANTE" id="572BAFC5-02FD-B64A-A4EC-EE75DA35FE8C">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:12:55 UTC</createdTime>
-<comment><![CDATA[El número identificador si se trata de un estudiante]]></comment>
+<comment><![CDATA[El número identificador si se trata de un estudiante. (Opcional, puede ser nulo)]]></comment>
+<notes><![CDATA[Puede ser NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -72,68 +87,10 @@
 <Attribute name="IDALERGIA" id="DB4CBCD6-8B27-3FF6-6DAB-476E46AB0C62">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:15:39 UTC</createdTime>
-<comment><![CDATA[El número identificador de la alergia que puede tener el participante, es opcional.]]></comment>
+<comment><![CDATA[El número identificador de la alergia que puede tener el participante. (Opcional, puede ser nulo)]]></comment>
+<notes><![CDATA[Puede ser NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IDRAMA" id="161B168C-D317-174C-FF1B-DCFF96649049">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-09-27 18:17:00 UTC</createdTime>
-<comment><![CDATA[El número identificador de la rama (femenil o varonil)]]></comment>
-<ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IDREGISTRO_" id="7F93CAEA-DBB0-B3E6-3A3C-E0680C8848D1">
-<createdBy>ITT</createdBy>
-<createdTime>2019-10-17 08:46:16 UTC</createdTime>
-<comment><![CDATA[Número identificador del registro de este participante]]></comment>
-<ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IDREGISTRO" id="1C030C19-939F-1AA0-D560-24CFE623E077">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 13:53:34 UTC</createdTime>
-<generatorID>01AD6ADF-DB72-3DDE-973F-DF4CBEC591B8</generatorID>
-<ownerDesignName>modeloBD</ownerDesignName>
-<referedAttribute>C87C14B8-E9D6-0A31-80C7-D1E5E678EE26</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IDESTUDIANTE1" id="78E7247C-9342-31EE-3F4A-8449269F14EB">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 13:55:43 UTC</createdTime>
-<generatorID>2AF4D008-EBEE-E294-3517-081867E93C5C</generatorID>
-<ownerDesignName>modeloBD</ownerDesignName>
-<referedAttribute>B3E1885E-D8F6-4357-52CE-CE010ABE9CAA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IDGANADOR" id="AD3E078A-2822-F943-D3EC-00F3022DB089">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 13:58:48 UTC</createdTime>
-<generatorID>87F7684D-D2DC-0E15-402E-C58102E77724</generatorID>
-<ownerDesignName>modeloBD</ownerDesignName>
-<referedAttribute>5B02E8C6-0B7B-0042-A410-DD565AB572CD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -143,26 +100,30 @@
 <Attribute name="IDCATEGORIA1" id="DC47EB89-6C22-93BF-C732-34868814B21F">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 20:07:12 UTC</createdTime>
+<comment><![CDATA[El número identificador de la categoria  la cual pertenece el participante.]]></comment>
 <generatorID>41FCB52C-D3BB-6A3B-D7A2-FFA06376E794</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>8FB169EB-5E0C-A6A5-B01D-7D28F03F8AE5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IDRAMA1" id="B1FAF282-4BF9-CAAF-143C-1E11877EB433">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 20:07:24 UTC</createdTime>
+<comment><![CDATA[El número identificador de la rama (femenil o varonil)]]></comment>
 <generatorID>6E797B7D-93F7-00E9-A2AE-21A93155CAF3</generatorID>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>AA9EBAF5-425E-011C-7549-F792F9752164</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -15,7 +15,8 @@
 <Attribute name="IDGANADOR" id="5B02E8C6-0B7B-0042-A410-DD565AB572CD">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:57:40 UTC</createdTime>
-<comment>El número identificador del ganador.</comment>
+<comment><![CDATA[El número identificador del ganador.]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,29 +24,19 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDPARTICIPANTE" id="C45FFC84-62D3-F891-9B03-CB8E771BB616">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 13:57:56 UTC</createdTime>
-<comment>El número identificador del participante que ganó.</comment>
+<Attribute name="IDPREMIO1" id="6AE3E3B3-E18F-A2D2-92F0-24BFB5AB7AE1">
+<createdBy>radge</createdBy>
+<createdTime>2019-10-22 03:56:39 UTC</createdTime>
+<comment><![CDATA[Número único de indentificación de un PREMIO]]></comment>
+<generatorID>DD23F9BF-B4D6-3114-CE27-BC169C466977</generatorID>
+<notes><![CDATA[UNIQUE. NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>57730CA9-EDCE-B342-13D1-4D3690A87792</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IDPREMIO" id="B4A18FF3-35A4-51E5-0B41-B97409F90EC9">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 13:58:10 UTC</createdTime>
-<comment>El número identificador del premio ganado.</comment>
-<ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

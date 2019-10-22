@@ -17,6 +17,7 @@
 <createdTime>2019-09-27 18:11:10 UTC</createdTime>
 <comment><![CDATA[Identificador del instituto tecnológico]]></comment>
 <commentInRDBMS><![CDATA[Identificador del instituto tecnológico]]></commentInRDBMS>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,6 +28,7 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:11:41 UTC</createdTime>
 <comment><![CDATA[Nombre del instituto tecnológico]]></comment>
+<commentInRDBMS><![CDATA[UNIQUE, NOT NULL]]></commentInRDBMS>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

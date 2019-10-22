@@ -3,7 +3,7 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-10-08 13:53:53 UTC</createdTime>
 <ownerDesignName>modeloBD</ownerDesignName>
-<sourcePk>89336062-2919-0922-B923-EC17F6D67E0A</sourcePk>
+<useSurrogateKey>true</useSurrogateKey>
 <identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
