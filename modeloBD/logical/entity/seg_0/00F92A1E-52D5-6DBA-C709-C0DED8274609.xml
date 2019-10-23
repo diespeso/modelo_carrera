@@ -28,12 +28,13 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:10:05 UTC</createdTime>
 <comment><![CDATA[La clasificación del premio, es decir qué tipo de premio es.]]></comment>
-<notes><![CDATA[NOT NULL, VALORES POSIBLES: DINERO, BECA, APARATO, CRÉDITOS, HORAS DE SERVICIO, CUPÓN, ETC.]]></notes>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>A459D998-427C-F469-6124-8714234DD9E0</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DESCRIPCION" id="3089D920-773B-AC46-12AC-A42C355AA698">
@@ -47,20 +48,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IDGANADOR" id="A5C9371B-7E4F-9993-FDFA-6E7411BBC687">
-<createdBy>radge</createdBy>
-<createdTime>2019-10-22 03:55:29 UTC</createdTime>
-<comment><![CDATA[El número identificador del ganador.]]></comment>
-<generatorID>DD23F9BF-B4D6-3114-CE27-BC169C466977</generatorID>
-<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
-<ownerDesignName>modeloBD</ownerDesignName>
-<referedAttribute>5B02E8C6-0B7B-0042-A410-DD565AB572CD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

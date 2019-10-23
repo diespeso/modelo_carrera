@@ -31,9 +31,10 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
+<domain>D67D907E-4A91-F00A-D163-92BD0212B5D3</domain>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="APELLIDO_PATERNO" id="7355DAE5-753B-FA8D-5652-204B09E8786C">
@@ -43,9 +44,10 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
+<domain>3798F994-24E5-639F-2D4A-E8566B2BD3C7</domain>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="APELLIDO_MATERNO" id="E9B76DA9-0D95-E98D-3DBB-CE35B75939E1">
@@ -55,9 +57,10 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
+<domain>3798F994-24E5-639F-2D4A-E8566B2BD3C7</domain>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FECHA DE NACIMIENTO" id="CE2CBC9C-DFF4-D5C5-6665-3487DE31DD5D">
@@ -71,37 +74,38 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDESTUDIANTE" id="572BAFC5-02FD-B64A-A4EC-EE75DA35FE8C">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-09-27 18:12:55 UTC</createdTime>
-<comment><![CDATA[El número identificador si se trata de un estudiante. (Opcional, puede ser nulo)]]></comment>
-<notes><![CDATA[Puede ser NULL]]></notes>
+<Attribute name="IDCONTACTO" id="10CF8D9B-FBAA-9133-4E2D-DB33D06599DC">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 05:52:03 UTC</createdTime>
+<generatorID>9FAB9DA7-AECC-250A-81EC-BA3787B0249A</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>04158FC9-8E5D-870F-E126-FC1410592E51</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDALERGIA" id="DB4CBCD6-8B27-3FF6-6DAB-476E46AB0C62">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-09-27 18:15:39 UTC</createdTime>
-<comment><![CDATA[El número identificador de la alergia que puede tener el participante. (Opcional, puede ser nulo)]]></comment>
-<notes><![CDATA[Puede ser NULL]]></notes>
+<Attribute name="IDRAMA" id="4DCE395D-98E5-AE6F-0317-7E1FA5FC9B2C">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 06:41:08 UTC</createdTime>
+<comment><![CDATA[identificador de rama, en este caso habría dos]]></comment>
+<generatorID>CE958B05-0219-CAD3-9999-5CBBC82C97F9</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AA9EBAF5-425E-011C-7549-F792F9752164</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDCATEGORIA1" id="DC47EB89-6C22-93BF-C732-34868814B21F">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 20:07:12 UTC</createdTime>
-<comment><![CDATA[El número identificador de la categoria  la cual pertenece el participante.]]></comment>
-<generatorID>41FCB52C-D3BB-6A3B-D7A2-FFA06376E794</generatorID>
+<Attribute name="IDCATEGORIA" id="75BF7FD9-5417-3465-45D7-DF1F5EE3E044">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 06:44:07 UTC</createdTime>
+<comment><![CDATA[Identificador de categoria]]></comment>
+<generatorID>092D9B68-2EF5-2F54-076D-373F45BBC0F3</generatorID>
 <notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>8FB169EB-5E0C-A6A5-B01D-7D28F03F8AE5</referedAttribute>
@@ -109,28 +113,30 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDRAMA1" id="B1FAF282-4BF9-CAAF-143C-1E11877EB433">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 20:07:24 UTC</createdTime>
-<comment><![CDATA[El número identificador de la rama (femenil o varonil)]]></comment>
-<generatorID>6E797B7D-93F7-00E9-A2AE-21A93155CAF3</generatorID>
-<notes><![CDATA[NOT NULL]]></notes>
+<Attribute name="IDESTUDIANTE" id="9DD52942-FECA-58F7-BD66-C6D517DE49FC">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 06:46:55 UTC</createdTime>
+<comment><![CDATA[La matrícula del estudiante]]></comment>
+<generatorID>C8FDA2C1-1913-7029-FD8D-6D19DA8E95C0</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<referedAttribute>AA9EBAF5-425E-011C-7549-F792F9752164</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B3E1885E-D8F6-4357-52CE-CE010ABE9CAA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDCONTACTO" id="47010E0B-43E7-3529-EDE7-7C7695AFD6B5">
-<createdBy>radge</createdBy>
-<createdTime>2019-10-23 03:20:49 UTC</createdTime>
-<generatorID>CC67413E-6014-D086-0EF6-4E9C77BF8AEF</generatorID>
+<Attribute name="IDALERGIA" id="4652F7F5-5304-0451-05F3-14777DC9009D">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 06:56:32 UTC</createdTime>
+<comment><![CDATA[El identificador de la alergia]]></comment>
+<generatorID>E7B0C8CE-AA63-E54C-8871-AC833436F7B6</generatorID>
 <ownerDesignName>modeloBD</ownerDesignName>
-<referedAttribute>04158FC9-8E5D-870F-E126-FC1410592E51</referedAttribute>
+<referedAttribute>2BEC075B-6EDB-373F-2171-EC6412C49B4C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

@@ -31,9 +31,10 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
+<domain>D67D907E-4A91-F00A-D163-92BD0212B5D3</domain>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="GRADO" id="32279970-5D96-BD07-D643-7732C8A61F66">
@@ -43,9 +44,10 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>B7EC7A48-C47C-7543-2DD3-C73AEA7283C8</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="APELLIDO_PATERNO" id="972DFC9E-0B2F-94FB-1A04-864626A3F4AC">
@@ -55,9 +57,10 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>3798F994-24E5-639F-2D4A-E8566B2BD3C7</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="APELLIDO_MATERNO" id="A53DD65D-7846-2B42-15D1-C9FD90EACF8A">
@@ -66,9 +69,10 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>3798F994-24E5-639F-2D4A-E8566B2BD3C7</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

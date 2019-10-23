@@ -36,20 +36,6 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDCARRERA" id="74935860-5C3A-CBC6-0CB9-CDFDE8D6A059">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 13:44:59 UTC</createdTime>
-<comment><![CDATA[El número identificador de la carrera a la que pertenece esta ruta]]></comment>
-<generatorID>14B00971-F639-7648-265C-A36ED2F8DD54</generatorID>
-<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
-<ownerDesignName>modeloBD</ownerDesignName>
-<referedAttribute>3FCABCD3-6E7E-9163-AE46-444AE046A916</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A5CB8D43-777D-7B73-F661-5CFD1FF21E9D" name="RUTA PK">

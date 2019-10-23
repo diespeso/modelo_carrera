@@ -31,9 +31,10 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>D67D907E-4A91-F00A-D163-92BD0212B5D3</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="APELLIDO_PATERNO" id="4FDD7224-7CF2-5017-803D-C478D4541828">
@@ -42,9 +43,10 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
+<domain>3798F994-24E5-639F-2D4A-E8566B2BD3C7</domain>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="APELLIDO_MATERNO" id="705ACD15-6C4A-210B-5A8B-26F7C684FC29">
@@ -53,21 +55,22 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
+<domain>3798F994-24E5-639F-2D4A-E8566B2BD3C7</domain>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="GRADO" id="FFD75CB1-6061-B72E-81B4-5AD412208B83">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:05:42 UTC</createdTime>
 <comment><![CDATA[Semestre del miembro del staff.]]></comment>
-<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
+<domain>B7EC7A48-C47C-7543-2DD3-C73AEA7283C8</domain>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IDEVENTO" id="9ADDC3A7-1C27-7273-ECE5-FAE22DFF9333">
@@ -93,7 +96,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>17B79C51-46C5-4A76-954C-D1CE15A1C2B7</attributeRef>
-<attributeRef>9ADDC3A7-1C27-7273-ECE5-FAE22DFF9333</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

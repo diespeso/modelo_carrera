@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PARTICIPANTE - GANADOR" directorySegmentName="seg_0" id="8A2080A9-FBD3-61E7-3797-2F1A603EEFC7">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 05:59:14 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<sourcePk>89336062-2919-0922-B923-EC17F6D67E0A</sourcePk>
+<targetPk>255DE78F-3A75-D09F-4CF3-A219C2565E2B</targetPk>
+<dominantRole>3CC325A2-EF94-CD4F-1079-68F4D0678368</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3CC325A2-EF94-CD4F-1079-68F4D0678368</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>523F4DD6-6C1E-ECAB-4303-18F353A83DE4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

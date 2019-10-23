@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Premio-Ganador" directorySegmentName="seg_0" id="DD23F9BF-B4D6-3114-CE27-BC169C466977">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 13:59:11 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GANADOR - PARTICIPANTE" directorySegmentName="seg_0" id="D4287234-FF26-DDD2-0AAA-866AA4C6F4C6">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 06:00:26 UTC</createdTime>
 <ownerDesignName>modeloBD</ownerDesignName>
 <sourcePk>255DE78F-3A75-D09F-4CF3-A219C2565E2B</sourcePk>
 <targetPk>FFFFE345-9F44-D1EC-6D3A-833FBABF553B</targetPk>
+<dominantRole>00F92A1E-52D5-6DBA-C709-C0DED8274609</dominantRole>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>

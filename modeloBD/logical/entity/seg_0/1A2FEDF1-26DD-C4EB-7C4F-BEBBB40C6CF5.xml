@@ -29,13 +29,14 @@
 <createdTime>2019-09-27 18:11:41 UTC</createdTime>
 <comment><![CDATA[Nombre del instituto tecnológico]]></comment>
 <commentInRDBMS><![CDATA[UNIQUE, NOT NULL]]></commentInRDBMS>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

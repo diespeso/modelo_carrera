@@ -24,12 +24,26 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDPREMIO1" id="6AE3E3B3-E18F-A2D2-92F0-24BFB5AB7AE1">
-<createdBy>radge</createdBy>
-<createdTime>2019-10-22 03:56:39 UTC</createdTime>
+<Attribute name="IDPARTICIPANTE" id="28EE729F-7D5B-6D05-F82C-721921C000E3">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 06:00:17 UTC</createdTime>
+<comment><![CDATA[El número identificador del participante (el que tendrá en su ficha)]]></comment>
+<generatorID>8A2080A9-FBD3-61E7-3797-2F1A603EEFC7</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<referedAttribute>FD921446-7FA2-04A4-FA15-D3D26563B6F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPREMIO" id="9F0A8E2F-A902-E5EF-CA21-81FFCB97F97A">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 06:00:48 UTC</createdTime>
 <comment><![CDATA[Número único de indentificación de un PREMIO]]></comment>
-<generatorID>DD23F9BF-B4D6-3114-CE27-BC169C466977</generatorID>
-<notes><![CDATA[UNIQUE. NOT NULL]]></notes>
+<generatorID>D4287234-FF26-DDD2-0AAA-866AA4C6F4C6</generatorID>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>57730CA9-EDCE-B342-13D1-4D3690A87792</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

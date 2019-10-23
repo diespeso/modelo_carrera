@@ -31,9 +31,10 @@
 <notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>613D4E11-8121-D06C-5E40-574C5CBB81EF</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -27,14 +27,14 @@
 <Attribute name="NOMBRE" id="82180340-5406-D6FB-80D0-9430673A989C">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:15:09 UTC</createdTime>
-<comment><![CDATA[Nombre de la alergia]]></comment>
+<comment><![CDATA[Nombre de la alergia. Este nombre es diferente al de personas, porque puede ser más complejo.]]></comment>
 <notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TIPO" id="5842B16D-F340-89C4-1C5E-494150AD5AE0">
 <createdBy>Carlos Fernando</createdBy>
@@ -43,24 +43,11 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>5F7C4E49-D332-2FC4-D6DC-1E2430A6F50C</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IDPARTICIPANTE" id="609612D7-C6B8-6525-B87E-062D2622BD58">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 13:53:53 UTC</createdTime>
-<comment><![CDATA[El participante que presenta la alergia]]></comment>
-<generatorID>4B8F77E9-4C18-E3BC-72A6-65B2B9A3D876</generatorID>
-<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
-<ownerDesignName>modeloBD</ownerDesignName>
-<referedAttribute>FD921446-7FA2-04A4-FA15-D3D26563B6F5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -71,7 +58,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>2BEC075B-6EDB-373F-2171-EC6412C49B4C</attributeRef>
-<attributeRef>609612D7-C6B8-6525-B87E-062D2622BD58</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RUTA - CARRERA" directorySegmentName="seg_0" id="4DD01597-69B7-87C0-EAA3-0028730DE32E">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 06:52:43 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<sourcePk>A5CB8D43-777D-7B73-F661-5CFD1FF21E9D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>46E03FAE-65E8-2F41-60EC-BC16067E74D3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B44E14E0-B8A9-9C03-B1E8-13E6A1DC6F2D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

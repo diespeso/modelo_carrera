@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Categoria-Participante" directorySegmentName="seg_0" id="41FCB52C-D3BB-6A3B-D7A2-FFA06376E794">
-<createdBy>Carlos Fernando</createdBy>
-<createdTime>2019-10-08 20:07:12 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RAMA - PARTICIPANTE" directorySegmentName="seg_0" id="CE958B05-0219-CAD3-9999-5CBBC82C97F9">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 06:41:08 UTC</createdTime>
 <ownerDesignName>modeloBD</ownerDesignName>
-<sourcePk>BB33D9A9-DAAB-CEC0-F626-94E5ED795ECE</sourcePk>
+<sourcePk>9EA735E9-636B-808B-F1FE-E52D4CA5A57F</sourcePk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>4ECD9BB9-4FDB-D359-276A-74798B934330</sourceEntity>
+<sourceEntity>08115D5E-4FA7-C6D6-4ACA-9041307C67A4</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>3CC325A2-EF94-CD4F-1079-68F4D0678368</targetEntity>
 <transferable>true</transferable>

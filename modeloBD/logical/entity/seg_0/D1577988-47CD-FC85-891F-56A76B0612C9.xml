@@ -27,7 +27,7 @@
 <Attribute name="NOMBRE" id="2F77DB12-FD9A-2516-69B3-6204311462D3">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 17:58:18 UTC</createdTime>
-<comment><![CDATA[Nombre del patrocinador]]></comment>
+<comment><![CDATA[Nombre del patrocinador, diferente al nombre de persona]]></comment>
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,7 +59,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

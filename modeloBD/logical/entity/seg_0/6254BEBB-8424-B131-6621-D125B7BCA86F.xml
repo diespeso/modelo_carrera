@@ -15,6 +15,8 @@
 <Attribute name="IDCONTACTO" id="04158FC9-8E5D-870F-E126-FC1410592E51">
 <createdBy>radge</createdBy>
 <createdTime>2019-10-23 03:19:52 UTC</createdTime>
+<comment><![CDATA[El identificador del contacto a buscar en caso de accidente.]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,18 +24,44 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDPARTICIPANTE" id="8B32B8F8-B62C-57F9-8471-47A438341CE0">
-<createdBy>radge</createdBy>
-<createdTime>2019-10-23 03:20:49 UTC</createdTime>
-<comment><![CDATA[El número identificador del participante (el que tendrá en su ficha)]]></comment>
-<generatorID>CC67413E-6014-D086-0EF6-4E9C77BF8AEF</generatorID>
+<Attribute name="NOMBRE" id="EF8169EB-46A0-ECD5-1120-F20B2C09E7AC">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 05:52:13 UTC</createdTime>
+<comment><![CDATA[Nombre de la persona a contactar en caso de accidente]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
-<referedAttribute>FD921446-7FA2-04A4-FA15-D3D26563B6F5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>D67D907E-4A91-F00A-D163-92BD0212B5D3</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_PATERNO" id="B2B5BDDB-4B58-7CBC-7EEE-055979499BC3">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 05:52:21 UTC</createdTime>
+<comment><![CDATA[El apellido paterno del contacto.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>3798F994-24E5-639F-2D4A-E8566B2BD3C7</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_MATERNO" id="CC60F973-C272-E040-3CE5-B4F9308C9A5E">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 05:52:30 UTC</createdTime>
+<comment><![CDATA[Apellido materno del contacto.]]></comment>
+<notes><![CDATA[NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>3798F994-24E5-639F-2D4A-E8566B2BD3C7</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTACTO - PARTICIPANTE" directorySegmentName="seg_0" id="CC67413E-6014-D086-0EF6-4E9C77BF8AEF">
-<createdBy>radge</createdBy>
-<createdTime>2019-10-23 03:20:15 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTACTO - PARTICIPANTE" directorySegmentName="seg_0" id="9FAB9DA7-AECC-250A-81EC-BA3787B0249A">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 05:51:31 UTC</createdTime>
 <ownerDesignName>modeloBD</ownerDesignName>
 <sourcePk>A7AA3E70-239E-1386-9BDF-84A2BD987E8A</sourcePk>
 <targetPk>89336062-2919-0922-B923-EC17F6D67E0A</targetPk>
+<dominantRole>6254BEBB-8424-B131-6621-D125B7BCA86F</dominantRole>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>

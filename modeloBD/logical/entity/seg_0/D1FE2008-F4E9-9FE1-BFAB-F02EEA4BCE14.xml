@@ -31,22 +31,23 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>2O</dataTypeSize>
+<domain>201AA3AB-3DA9-089F-31FC-1D89DDB663D6</domain>
 <ownDataTypeParameters>2O,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NOMBRE" id="6303040B-6736-65EA-30C1-D008B6CAEF3B">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:07:35 UTC</createdTime>
-<comment><![CDATA[Nombre del insumo, especifico]]></comment>
+<comment><![CDATA[Nombre del insumo, especifico. Diferente a nombre de persona.]]></comment>
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CANTIDAD" id="B320C991-087D-8F0D-F671-20524857C089">
 <createdBy>Carlos Fernando</createdBy>
