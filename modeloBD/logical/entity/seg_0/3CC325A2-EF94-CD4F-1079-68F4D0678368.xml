@@ -109,7 +109,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IDRAMA1" id="B1FAF282-4BF9-CAAF-143C-1E11877EB433">
 <createdBy>Carlos Fernando</createdBy>
@@ -119,6 +119,18 @@
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
 <referedAttribute>AA9EBAF5-425E-011C-7549-F792F9752164</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDCONTACTO" id="47010E0B-43E7-3529-EDE7-7C7695AFD6B5">
+<createdBy>radge</createdBy>
+<createdTime>2019-10-23 03:20:49 UTC</createdTime>
+<generatorID>CC67413E-6014-D086-0EF6-4E9C77BF8AEF</generatorID>
+<ownerDesignName>modeloBD</ownerDesignName>
+<referedAttribute>04158FC9-8E5D-870F-E126-FC1410592E51</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

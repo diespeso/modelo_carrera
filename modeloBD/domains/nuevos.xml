@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="nuevos">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Nombre" id="D67D907E-4A91-F00A-D163-92BD0212B5D3">
+<createdBy>root</createdBy>
+<createdTime>2019-10-23 03:38:35 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30</dataTypeSize>
+<fileName>nuevos</fileName>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
