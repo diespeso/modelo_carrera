@@ -3,6 +3,9 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:17:31 UTC</createdTime>
 <ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -15,9 +18,12 @@
 <Attribute name="IDESTUDIANTE" id="B3E1885E-D8F6-4357-52CE-CE010ABE9CAA">
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:19:32 UTC</createdTime>
-<comment><![CDATA[La matrícula del estudiante]]></comment>
+<comment><![CDATA[El número de control del estudiante]]></comment>
 <notes><![CDATA[UNIQUE, NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -30,6 +36,9 @@
 <comment><![CDATA[Los nombres del estudiante]]></comment>
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -43,6 +52,9 @@
 <comment><![CDATA[El semestre del estudiante.]]></comment>
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -56,6 +68,9 @@
 <comment><![CDATA[El apellido paterno del estudiante]]></comment>
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -68,6 +83,9 @@
 <createdTime>2019-10-17 08:31:47 UTC</createdTime>
 <notes><![CDATA[NOT NULL]]></notes>
 <ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -81,6 +99,9 @@
 <createdBy>Carlos Fernando</createdBy>
 <createdTime>2019-09-27 18:19:56 UTC</createdTime>
 <ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B3E1885E-D8F6-4357-52CE-CE010ABE9CAA</attributeRef>

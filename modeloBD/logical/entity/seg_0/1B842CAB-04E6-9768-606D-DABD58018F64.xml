@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B842CAB-04E6-9768-606D-DABD58018F64" name="CIUDAD">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:29:37 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDCIUDAD" id="883BE7A7-FC28-7EBD-7B95-1781CC911FCB">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:30:00 UTC</createdTime>
+<comment><![CDATA[El identificador de la ciudad de origen.]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="2CFF76E9-365D-4452-7AC8-6C54737D407F">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:30:36 UTC</createdTime>
+<comment><![CDATA[Nombre de la ciudad de origen.]]></comment>
+<notes><![CDATA[NOT NULL.]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDESTADO" id="BB9DA33F-343D-5111-4708-D1FEA78EBFA9">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:31:38 UTC</createdTime>
+<comment><![CDATA[El identificador del  Estado político de origen]]></comment>
+<generatorID>6C193860-61C5-83F5-B62F-C1C0CD1D19BD</generatorID>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<referedAttribute>2BEA0F3B-05F2-43C3-D9B7-31C2AD6E0BEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA30A521-8166-3E0F-7DFA-B26B93A0814A" name="CIUDAD PK">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:30:05 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>883BE7A7-FC28-7EBD-7B95-1781CC911FCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

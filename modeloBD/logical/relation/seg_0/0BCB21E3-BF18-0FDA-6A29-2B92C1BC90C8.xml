@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIPOSANGRE - PARTICIPANTE" directorySegmentName="seg_0" id="0BCB21E3-BF18-0FDA-6A29-2B92C1BC90C8">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:19:05 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<sourcePk>D5744CD7-3519-E67F-E8C7-EA88F1A87C85</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C513D078-6913-893A-EEC3-589AF26E8C6B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3CC325A2-EF94-CD4F-1079-68F4D0678368</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

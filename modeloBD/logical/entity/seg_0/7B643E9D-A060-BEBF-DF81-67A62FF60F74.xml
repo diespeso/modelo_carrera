@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B643E9D-A060-BEBF-DF81-67A62FF60F74" name="ESTADO">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:27:35 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDESTADO" id="2BEA0F3B-05F2-43C3-D9B7-31C2AD6E0BEB">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:27:42 UTC</createdTime>
+<comment><![CDATA[El identificador del  Estado político de origen]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="3ACCCEDB-1FD5-28FA-0EBA-1032BCB6A7BC">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:28:20 UTC</createdTime>
+<comment><![CDATA[El nombre del Estado político.]]></comment>
+<notes><![CDATA[NOT NULL.]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C164DD32-DCE2-E29B-174B-331E33DE6758" name="ESTADO PK">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:29:31 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BEA0F3B-05F2-43C3-D9B7-31C2AD6E0BEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

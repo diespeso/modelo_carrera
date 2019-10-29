@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C513D078-6913-893A-EEC3-589AF26E8C6B" name="TIPOSANGRE">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 12:14:40 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDTIPOSANGRE" id="29F2F750-A4E3-DDDC-C629-A90C5C692F25">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 12:15:08 UTC</createdTime>
+<comment><![CDATA[Identificador del tipo de sangre.]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="A8DDAAF8-6101-147C-6B55-DADFFC276324">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 12:16:14 UTC</createdTime>
+<comment><![CDATA[El tipo de sangre, las opciones son: A+, B+, O+, AB+, A-, B-, O-, AB-]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5744CD7-3519-E67F-E8C7-EA88F1A87C85" name="TIPO_SANGRE PK">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 12:15:26 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29F2F750-A4E3-DDDC-C629-A90C5C692F25</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

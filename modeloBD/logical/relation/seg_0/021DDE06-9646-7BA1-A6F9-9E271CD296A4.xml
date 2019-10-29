@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESTADO - PARTICIPANTE" directorySegmentName="seg_0" id="021DDE06-9646-7BA1-A6F9-9E271CD296A4">
+<createdBy>edgar</createdBy>
+<createdTime>2019-10-29 05:34:16 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<engineerTo>
+<item key="AFAE0C73-5BE3-6BAE-B3F1-68FF4E6210B6" value="true"/>
+</engineerTo>
+<sourcePk>C164DD32-DCE2-E29B-174B-331E33DE6758</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7B643E9D-A060-BEBF-DF81-67A62FF60F74</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3CC325A2-EF94-CD4F-1079-68F4D0678368</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
