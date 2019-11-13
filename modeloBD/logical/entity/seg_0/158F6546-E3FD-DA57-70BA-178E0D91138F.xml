@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="158F6546-E3FD-DA57-70BA-178E0D91138F" name="CARRERA_ACADEMICA">
+<createdBy>radge</createdBy>
+<createdTime>2019-11-13 06:45:33 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO_CARRERA" id="F8BD1F6C-2E2A-D7E4-5920-0176306CDC8F">
+<createdBy>radge</createdBy>
+<createdTime>2019-11-13 06:45:55 UTC</createdTime>
+<comment><![CDATA[IDENTIFICADORES COMO ISIC]]></comment>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="6AB31C5A-F66E-F104-2360-76DBCF2F5BE3">
+<createdBy>radge</createdBy>
+<createdTime>2019-11-13 06:47:04 UTC</createdTime>
+<comment><![CDATA[EL NOMBRE DE LA CARRERA]]></comment>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EA95B3A-AFD8-14A0-9FA1-0485522241F9" name="CARRERA_ACADEMICA PK">
+<createdBy>radge</createdBy>
+<createdTime>2019-11-13 06:47:39 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8BD1F6C-2E2A-D7E4-5920-0176306CDC8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
